@@ -13,8 +13,7 @@ s = second()
 
 if s == 0
     puts "You can't divide by zero"
-    
-else puts "Answer : #{f.to_i} / #{s.to_i} = #{f.to_i / s.to_i}"
+    else puts "Answer : #{f.to_i} / #{s.to_i} = #{f.to_i / s.to_i} with a remainder of #{f.to_i % s.to_i}"
 end
 
 
